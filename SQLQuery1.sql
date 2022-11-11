@@ -1,0 +1,1 @@
+﻿select * from [SendProducts] where ProdPriceByQty=(ProdPriceBuy * ProdQoulty);
