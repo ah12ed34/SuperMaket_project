@@ -109,7 +109,10 @@ namespace SuperMaket_project
             this.textPass.Location = new System.Drawing.Point(323, 156);
             this.textPass.Multiline = true;
             this.textPass.Name = "textPass";
+<<<<<<< HEAD
             this.textPass.PasswordChar = '*';
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.textPass.Size = new System.Drawing.Size(250, 48);
             this.textPass.TabIndex = 2;
             this.textPass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textPass_KeyDown);

@@ -31,10 +31,13 @@ namespace SuperMaket_project
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
             this.buttonMInI = new System.Windows.Forms.Button();
             this.picturMaxi = new System.Windows.Forms.PictureBox();
             this.pictIconi = new System.Windows.Forms.PictureBox();
             this.buttonX = new System.Windows.Forms.Button();
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.PanelMenuLeft = new System.Windows.Forms.FlowLayoutPanel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -45,26 +48,47 @@ namespace SuperMaket_project
             this.فاتورةبيعToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.توريدمنتجاتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.طباعةسنداتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
             this.طباعةسنداتToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.panelMenuLe = new System.Windows.Forms.Panel();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnSuppliers = new System.Windows.Forms.Button();
             this.btnCustomers = new System.Windows.Forms.Button();
+=======
+            this.panelMenuLe = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnAccounts = new System.Windows.Forms.Button();
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.btnSells = new System.Windows.Forms.Button();
             this.btnProduct = new System.Windows.Forms.Button();
             this.btnManag = new System.Windows.Forms.Button();
             this.btnUsers = new System.Windows.Forms.Button();
             this.buttonMe = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picturMaxi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictIconi)).BeginInit();
+=======
+            this.buttonMInI = new System.Windows.Forms.Button();
+            this.picturMaxi = new System.Windows.Forms.PictureBox();
+            this.pictIconi = new System.Windows.Forms.PictureBox();
+            this.buttonX = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.paneltitle.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panelMenuLe.SuspendLayout();
+<<<<<<< HEAD
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.picturMaxi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictIconi)).BeginInit();
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.SuspendLayout();
             // 
             // panel1
@@ -80,6 +104,7 @@ namespace SuperMaket_project
             this.panel1.Size = new System.Drawing.Size(1417, 57);
             this.panel1.TabIndex = 0;
             // 
+<<<<<<< HEAD
             // buttonMInI
             // 
             this.buttonMInI.Anchor = System.Windows.Forms.AnchorStyles.Right;
@@ -139,6 +164,8 @@ namespace SuperMaket_project
             this.buttonX.UseVisualStyleBackColor = false;
             this.buttonX.Click += new System.EventHandler(this.button1_Click_1);
             // 
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             // PanelMenuLeft
             // 
             this.PanelMenuLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
@@ -200,8 +227,12 @@ namespace SuperMaket_project
             this.الرئيسيةToolStripMenuItem,
             this.فاتورةبيعToolStripMenuItem,
             this.توريدمنتجاتToolStripMenuItem,
+<<<<<<< HEAD
             this.طباعةسنداتToolStripMenuItem,
             this.طباعةسنداتToolStripMenuItem1});
+=======
+            this.طباعةسنداتToolStripMenuItem});
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -233,6 +264,7 @@ namespace SuperMaket_project
             // طباعةسنداتToolStripMenuItem
             // 
             this.طباعةسنداتToolStripMenuItem.Name = "طباعةسنداتToolStripMenuItem";
+<<<<<<< HEAD
             this.طباعةسنداتToolStripMenuItem.Size = new System.Drawing.Size(104, 70);
             this.طباعةسنداتToolStripMenuItem.Text = "فاتورة شراء";
             this.طباعةسنداتToolStripMenuItem.Click += new System.EventHandler(this.طباعةسنداتToolStripMenuItem_Click);
@@ -242,14 +274,24 @@ namespace SuperMaket_project
             this.طباعةسنداتToolStripMenuItem1.Name = "طباعةسنداتToolStripMenuItem1";
             this.طباعةسنداتToolStripMenuItem1.Size = new System.Drawing.Size(113, 70);
             this.طباعةسنداتToolStripMenuItem1.Text = "طباعة سندات";
+=======
+            this.طباعةسنداتToolStripMenuItem.Size = new System.Drawing.Size(113, 70);
+            this.طباعةسنداتToolStripMenuItem.Text = "طباعة سندات";
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             // 
             // panelMenuLe
             // 
             this.panelMenuLe.AllowDrop = true;
+<<<<<<< HEAD
             this.panelMenuLe.BackColor = System.Drawing.SystemColors.Highlight;
             this.panelMenuLe.Controls.Add(this.btnExit);
             this.panelMenuLe.Controls.Add(this.btnSuppliers);
             this.panelMenuLe.Controls.Add(this.btnCustomers);
+=======
+            this.panelMenuLe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.panelMenuLe.Controls.Add(this.btnExit);
+            this.panelMenuLe.Controls.Add(this.btnAccounts);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.panelMenuLe.Controls.Add(this.btnSells);
             this.panelMenuLe.Controls.Add(this.btnProduct);
             this.panelMenuLe.Controls.Add(this.btnManag);
@@ -263,9 +305,37 @@ namespace SuperMaket_project
             this.panelMenuLe.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenuLe_Paint);
             this.panelMenuLe.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelMenuLe_MouseDown);
             // 
+<<<<<<< HEAD
             // btnExit
             // 
             this.btnExit.BackColor = System.Drawing.SystemColors.MenuHighlight;
+=======
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tw Cen MT", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(682, 187);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(33, 37);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "x";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tw Cen MT", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(682, 187);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(33, 37);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "x";
+            // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.btnExit.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnExit.FlatAppearance.BorderSize = 0;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -273,6 +343,7 @@ namespace SuperMaket_project
             this.btnExit.ForeColor = System.Drawing.SystemColors.Control;
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
             this.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+<<<<<<< HEAD
             this.btnExit.Location = new System.Drawing.Point(0, 559);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(269, 79);
@@ -320,6 +391,35 @@ namespace SuperMaket_project
             // btnSells
             // 
             this.btnSells.BackColor = System.Drawing.SystemColors.MenuHighlight;
+=======
+            this.btnExit.Location = new System.Drawing.Point(0, 480);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(269, 79);
+            this.btnExit.TabIndex = 9;
+            this.btnExit.Text = "خروج";
+            this.btnExit.UseVisualStyleBackColor = false;
+            // 
+            // btnAccounts
+            // 
+            this.btnAccounts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnAccounts.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAccounts.FlatAppearance.BorderSize = 0;
+            this.btnAccounts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAccounts.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAccounts.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnAccounts.Image = ((System.Drawing.Image)(resources.GetObject("btnAccounts.Image")));
+            this.btnAccounts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAccounts.Location = new System.Drawing.Point(0, 404);
+            this.btnAccounts.Name = "btnAccounts";
+            this.btnAccounts.Size = new System.Drawing.Size(269, 76);
+            this.btnAccounts.TabIndex = 11;
+            this.btnAccounts.Text = "الحسابات";
+            this.btnAccounts.UseVisualStyleBackColor = false;
+            // 
+            // btnSells
+            // 
+            this.btnSells.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.btnSells.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnSells.FlatAppearance.BorderSize = 0;
             this.btnSells.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -337,7 +437,11 @@ namespace SuperMaket_project
             // 
             // btnProduct
             // 
+<<<<<<< HEAD
             this.btnProduct.BackColor = System.Drawing.SystemColors.MenuHighlight;
+=======
+            this.btnProduct.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.btnProduct.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnProduct.FlatAppearance.BorderSize = 0;
             this.btnProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -355,7 +459,11 @@ namespace SuperMaket_project
             // 
             // btnManag
             // 
+<<<<<<< HEAD
             this.btnManag.BackColor = System.Drawing.SystemColors.MenuHighlight;
+=======
+            this.btnManag.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.btnManag.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnManag.FlatAppearance.BorderSize = 0;
             this.btnManag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -372,7 +480,11 @@ namespace SuperMaket_project
             // 
             // btnUsers
             // 
+<<<<<<< HEAD
             this.btnUsers.BackColor = System.Drawing.SystemColors.MenuHighlight;
+=======
+            this.btnUsers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.btnUsers.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnUsers.FlatAppearance.BorderSize = 0;
             this.btnUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -390,7 +502,11 @@ namespace SuperMaket_project
             // 
             // buttonMe
             // 
+<<<<<<< HEAD
             this.buttonMe.BackColor = System.Drawing.SystemColors.MenuHighlight;
+=======
+            this.buttonMe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.buttonMe.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonMe.FlatAppearance.BorderSize = 0;
             this.buttonMe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -406,6 +522,7 @@ namespace SuperMaket_project
             this.buttonMe.UseVisualStyleBackColor = false;
             this.buttonMe.Click += new System.EventHandler(this.buttonMe_Click);
             // 
+<<<<<<< HEAD
             // label2
             // 
             this.label2.AutoSize = true;
@@ -427,6 +544,66 @@ namespace SuperMaket_project
             this.label1.Size = new System.Drawing.Size(33, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "x";
+=======
+            // buttonMInI
+            // 
+            this.buttonMInI.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.buttonMInI.BackColor = System.Drawing.Color.Blue;
+            this.buttonMInI.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.buttonMInI.FlatAppearance.BorderSize = 0;
+            this.buttonMInI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonMInI.Font = new System.Drawing.Font("Tw Cen MT", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMInI.ForeColor = System.Drawing.SystemColors.Control;
+            this.buttonMInI.Image = ((System.Drawing.Image)(resources.GetObject("buttonMInI.Image")));
+            this.buttonMInI.Location = new System.Drawing.Point(1212, 12);
+            this.buttonMInI.Name = "buttonMInI";
+            this.buttonMInI.Size = new System.Drawing.Size(39, 39);
+            this.buttonMInI.TabIndex = 3;
+            this.buttonMInI.UseVisualStyleBackColor = false;
+            this.buttonMInI.Click += new System.EventHandler(this.buttonMInI_Click);
+            // 
+            // picturMaxi
+            // 
+            this.picturMaxi.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.picturMaxi.Image = ((System.Drawing.Image)(resources.GetObject("picturMaxi.Image")));
+            this.picturMaxi.Location = new System.Drawing.Point(1294, 15);
+            this.picturMaxi.Name = "picturMaxi";
+            this.picturMaxi.Size = new System.Drawing.Size(31, 26);
+            this.picturMaxi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picturMaxi.TabIndex = 2;
+            this.picturMaxi.TabStop = false;
+            this.picturMaxi.Visible = false;
+            this.picturMaxi.Click += new System.EventHandler(this.picturMaxi_Click);
+            // 
+            // pictIconi
+            // 
+            this.pictIconi.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.pictIconi.Image = ((System.Drawing.Image)(resources.GetObject("pictIconi.Image")));
+            this.pictIconi.Location = new System.Drawing.Point(1294, 12);
+            this.pictIconi.Name = "pictIconi";
+            this.pictIconi.Size = new System.Drawing.Size(31, 29);
+            this.pictIconi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictIconi.TabIndex = 1;
+            this.pictIconi.TabStop = false;
+            this.pictIconi.Click += new System.EventHandler(this.pictIconi_Click);
+            // 
+            // buttonX
+            // 
+            this.buttonX.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.buttonX.BackColor = System.Drawing.Color.Blue;
+            this.buttonX.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.buttonX.FlatAppearance.BorderSize = 0;
+            this.buttonX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonX.Font = new System.Drawing.Font("Tw Cen MT", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonX.ForeColor = System.Drawing.SystemColors.Control;
+            this.buttonX.Image = ((System.Drawing.Image)(resources.GetObject("buttonX.Image")));
+            this.buttonX.Location = new System.Drawing.Point(1363, 15);
+            this.buttonX.Name = "buttonX";
+            this.buttonX.Size = new System.Drawing.Size(30, 33);
+            this.buttonX.TabIndex = 1;
+            this.buttonX.UseVisualStyleBackColor = false;
+            this.buttonX.Click += new System.EventHandler(this.button1_Click_1);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             // 
             // Form1
             // 
@@ -441,8 +618,11 @@ namespace SuperMaket_project
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.picturMaxi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictIconi)).EndInit();
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -452,6 +632,11 @@ namespace SuperMaket_project
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panelMenuLe.ResumeLayout(false);
+<<<<<<< HEAD
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.picturMaxi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictIconi)).EndInit();
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.ResumeLayout(false);
 
         }
@@ -477,14 +662,22 @@ namespace SuperMaket_project
         private System.Windows.Forms.ToolStripMenuItem توريدمنتجاتToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem طباعةسنداتToolStripMenuItem;
         private System.Windows.Forms.Panel panelContent;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnSuppliers;
         private System.Windows.Forms.Button btnCustomers;
+=======
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnAccounts;
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         private System.Windows.Forms.Button btnSells;
         private System.Windows.Forms.Button btnProduct;
         private System.Windows.Forms.Button btnManag;
         private System.Windows.Forms.Button btnUsers;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.ToolStripMenuItem طباعةسنداتToolStripMenuItem1;
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
     }
 }
 

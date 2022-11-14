@@ -168,7 +168,11 @@ namespace SuperMaket_project
 
         private void btnAccounts_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             btnCustomers.Width = 200;
+=======
+            btnAccounts.Width = 200;
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         }
 
         private void btnEmpl_Click(object sender, EventArgs e)
@@ -194,8 +198,12 @@ namespace SuperMaket_project
                 btnUsers.Text = "";
                 btnProduct.Text = "";
                 btnSells.Text = "";
+<<<<<<< HEAD
                 btnCustomers.Text = "";
                 btnSuppliers.Text = "";
+=======
+                btnAccounts.Text = "";
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
                 btnExit.Text = "";
 
             
@@ -209,9 +217,15 @@ namespace SuperMaket_project
                 btnUsers.Text = "المستخدمين";
                 btnProduct.Text = "المنتجات";
                 btnSells.Text = "المبيعات";
+<<<<<<< HEAD
                 btnCustomers.Text = "العملاء";
                 btnSuppliers.Text = "الموردين";
                 btnExit.Text= "خروج";
+=======
+                btnAccounts.Text = "الحسابات";
+                btnExit.Text = "خروج";
+              
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
                 buttonMe.Visible = true;
                 this.panelMenuLe.Width = 200;
             }
@@ -244,6 +258,7 @@ namespace SuperMaket_project
             AbrirFormEnPanel2(new FormUsers());
 
         }
+<<<<<<< HEAD
 
         private void btnCustomers_Click(object sender, EventArgs e)
         {
@@ -267,5 +282,7 @@ namespace SuperMaket_project
             this.Close();
 
         }
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
     }
 }

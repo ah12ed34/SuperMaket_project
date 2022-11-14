@@ -8,24 +8,37 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Timers;
+<<<<<<< HEAD
 using SuperMaket_project.Facade;
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
 
 namespace SuperMaket_project
 {
     public partial class FormSendProdu : Form
     {
         //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\الجامعة\مستوى ثالث\projects c# forms\SuperMaket_project\bin\Debug\LODB.mdf;Integrated Security=True;Connect Timeout=30");
+<<<<<<< HEAD
         Fbuying buy = new Fbuying();
         DataTable ProdectTable = new DataTable();
         List<Products> listProducts = new List<Products>();
+=======
+
+        connection con = new connection();
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         public FormSendProdu()
         {
             InitializeComponent();
         }
         public void DisplayData()
         {
+<<<<<<< HEAD
 
             SqlDataAdapter sda = buy.getAll();
+=======
+            
+            SqlDataAdapter sda = con.command("Select * from SendProducts");
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             DataTable dt = new DataTable();
             sda.Fill(dt);
             dataGridView1.DataSource = dt;
@@ -60,6 +73,7 @@ namespace SuperMaket_project
             }
             else
             {
+<<<<<<< HEAD
 
 
                 decimal qnantity = Convert.ToDecimal(numbericdoQlty.Value);
@@ -142,6 +156,80 @@ namespace SuperMaket_project
 
                 //MessageBox.Show("Recods are entered successfully");
                 //DisplayData();
+=======
+             
+               
+                int qoulty = Convert.ToInt32(numbericdoQlty.Value);
+                int priceSell = Convert.ToInt32(texpriceSell.Text);
+                int bareCode = Convert.ToInt32(textBareCO.Text);
+                int pricebuy = Convert.ToInt32(textPriceBuy.Text);
+                int priceBuyQlty = qoulty * pricebuy;
+                int priceSellQlty = qoulty * priceSell;
+
+
+                DateTime dTimeEnter = dateTimeStart.Value;
+                DateTime dTimeEnd = dateTimeEnd.Value;
+
+                //string dTimeEnter = Convert.ToString(dateTimeStart.Text);
+                //string dTimeEnd = Convert.ToString(dateTimeEnd.Text);
+
+
+
+
+                switch (comboBox2.SelectedItem)
+                {
+                         
+                    case "single":
+                        con.command("insert into SendProducts (ProdName,comBoProds,ProdBareCod,ProdPriceBuy,ProdPriceSell,ProdQoulty,ProdPriceByQty,ProdPriceSeQty,EnterDate,EndDate)  values( ' " + textprodName.Text + "' ,'" + comboBox2.Text + "' , '" + bareCode + "','"+ pricebuy + "' , '" + priceSell + "' , '" + qoulty + "' , '" + priceBuyQlty + "' , '" + priceSellQlty + "','" + dTimeEnter + "','" + dTimeEnd + "') ");
+                        
+                        textprodName.Text = "";
+                        comboBox2.Text = "single";
+                        pricebuy = 0;
+                        priceSell = 0;
+                        textBareCO.Text = "";
+
+                        bareCode = 0;
+                        qoulty = 0;
+                        priceBuyQlty = 0;
+                        priceSellQlty = 0;
+
+
+         
+                        break;
+                    case "package":
+                        con.command( "insert into SendProducts (ProdName,comBoProds,ProdBareCod,ProdPriceBuy,ProdPriceSell,ProdQoulty,ProdPriceByQty,ProdPriceSeQty/*,EnterDate,EndDate*/)  values( ' " + textprodName.Text + "' ,'" + comboBox2.Text + "' , '" + bareCode + "','" + pricebuy + "' , '" + priceSell + "' , '" + qoulty + "' , '" + priceBuyQlty + "' , '" + priceSellQlty + /*"','" + dTimeEnter + "','" + dTimeEnd + */ "') ");
+                       
+                        textprodName.Text = "";
+                        comboBox2.Text = "package";
+                        pricebuy = 0;
+                        priceSell = 0;
+                        textBareCO.Text = "";
+                        bareCode = 0;
+                        qoulty = 0;
+                        priceBuyQlty = 0;
+                        priceSellQlty = 0;
+           
+                        break;
+                    //case "c":
+                    //    cmd.CommandText = "insert into SendProducts (ProdName,comBoProds,ProdBareCod,ProdPriceBuy,ProdPriceSell,ProdQoulty,ProdPriceByQty,ProdPriceSeQty/*,EnterDate,EndDate*/)  values( ' " + textprodName.Text + "' ,'" + comboBox2.Text + "' , '" + bareCode + "','" + pricebuy + "' , '" + priceSell + "' , '" + qoulty + "' , '" + priceBuyQlty + "' , '" + priceSellQlty + /*"','" + dTimeStart + "','" + dTimeEnd + */"') ";
+                    //    cmd.ExecuteNonQuery();
+                    //    textprodName.Text = "";
+                    //    comboBox2.Text = "كرتون";
+                    //    pricebuy = 0;
+                    //    priceSell = 0;
+                    //    bareCode = 0;
+                    //    qoulty = 0;
+                    //    //dataGridView1.Rows.Add(textprodName.Text, comboBox2.Text, price, textBareCO.Text, qty);
+                    //    //dataGridView2.Rows.Add(textprodName.Text, comboBox2.Text, price, textBareCO.Text, qty);
+                    //    //dataGridView3.Rows.Add(textprodName.Text, comboBox2.Text, price, textBareCO.Text, qty);
+                    //    break;
+                       
+                }
+                
+
+                MessageBox.Show("Recods are entered successfully");
+                DisplayData();
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
 
                 //switch (comboxParts.SelectedItem)
                 //{
@@ -215,10 +303,17 @@ namespace SuperMaket_project
                 //        dataGridView3.Visible = true;
                 //        break;
                 // }
+<<<<<<< HEAD
                 dataGridView1.DataSource = ProdectTable;
             }
         }
         
+=======
+
+            }
+        }
+
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         private void buttonDelete_Click(object sender, EventArgs e)
         {
             //while (dataGridView1.SelectedRows.Count > 0)
@@ -230,8 +325,13 @@ namespace SuperMaket_project
             //int price = Convert.ToInt32(textPrice.Text);
             //int bareCode = Convert.ToInt32(textBarCO.Text);
             //int qoulty = Convert.ToInt32(textQoulty.Text);
+<<<<<<< HEAD
             /*con.delete( "Delete  From SendProducts where prodName='" + textprodName.Text + "'")*/;
             buy.delete(0);
+=======
+            con.delete( "Delete  From SendProducts where prodName='" + textprodName.Text + "'");
+            
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             textprodName.Text = "";
             comboBox2.Text = "";
             textPriceBuy.Text = "";
@@ -348,6 +448,7 @@ namespace SuperMaket_project
             dataGridView1.EnableHeadersVisualStyles = false;
             dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.Blue;
             dataGridView1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+<<<<<<< HEAD
             ProdectTable = new DataTable();
             
             ProdectTable.Columns.Add("product_name");
@@ -360,6 +461,9 @@ namespace SuperMaket_project
             ProdectTable.Columns.Add("Expiry Date");
             DisplayData();
            
+=======
+            DisplayData();
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         }
 
         private void comboxParts_KeyDown(object sender, KeyEventArgs e)
@@ -375,7 +479,11 @@ namespace SuperMaket_project
             //int price = Convert.ToInt32(textPrice.Text);
             //int bareCode = Convert.ToInt32(textBarCO.Text);
             //int qoulty = Convert.ToInt32(textQoulty.Text);
+<<<<<<< HEAD
             //con.command( "Update SendProducts set prodName ='" + textprodName.Text + "' where prodName ='" + textSearch.Text + "'");
+=======
+            con.command( "Update SendProducts set prodName ='" + textprodName.Text + "' where prodName ='" + textSearch.Text + "'");
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             
             textprodName.Text = "";
             comboBox2.Text = "";
@@ -386,6 +494,7 @@ namespace SuperMaket_project
             //price = 0;
             //bareCode = 0;
             //qoulty = 0;
+<<<<<<< HEAD
             //decimal pr = 0;
             //for (int i = 0; i < ProdectTable.Rows.Count; i++)
             //{
@@ -394,6 +503,9 @@ namespace SuperMaket_project
             //        , Convert.ToDecimal(ProdectTable.Rows[i]["price sell"]), Convert.ToDecimal(ProdectTable.Rows[i]["Barcode"]), Convert.ToDecimal(ProdectTable.Rows[i]["Quantity"]), 0, 0, 0, Convert.ToDateTime(ProdectTable.Rows[i]["Start Date"]), Convert.ToDateTime(ProdectTable.Rows[i]["Expiry Date"])));
             //}
             //buy.update(0, 0, pr, DateTime.Now, listProducts);
+=======
+
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
 
             MessageBox.Show("Recods are update successfully");
             DisplayData();
@@ -420,6 +532,7 @@ namespace SuperMaket_project
             numbericdoQlty.Value = 0;
 
             DataTable dt = new DataTable();
+<<<<<<< HEAD
             //SqlDataAdapter sda = con.command("select * from SendProducts where prodName ='" + textSearch.Text + "'");
             SqlDataAdapter sda;
             try
@@ -427,6 +540,9 @@ namespace SuperMaket_project
 
             }catch (Exception ex) {  sda = buy.Search(0); }
            
+=======
+            SqlDataAdapter sda = con.command("select * from SendProducts where prodName ='" + textSearch.Text + "'");
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
 
             sda.Fill(dt);
             dataGridView1.DataSource = dt;
@@ -482,6 +598,7 @@ namespace SuperMaket_project
             //}
             if (e.KeyCode == Keys.Enter)comboBox2.Focus();
         }
+<<<<<<< HEAD
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
@@ -502,5 +619,7 @@ namespace SuperMaket_project
             }
             buy.add(0, 0, pr, DateTime.Now, listProducts);
         }
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
     }
 }

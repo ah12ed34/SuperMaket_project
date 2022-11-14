@@ -60,18 +60,28 @@ namespace SuperMaket_project
             this.lODBDataSet = new SuperMaket_project.LODBDataSet();
             this.sendProductsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.sendProductsTableAdapter = new SuperMaket_project.LODBDataSetTableAdapters.SendProductsTableAdapter();
+<<<<<<< HEAD
             this.panel1 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             ((System.ComponentModel.ISupportInitialize)(this.numbericdoQlty)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lODBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sendProductsBindingSource)).BeginInit();
+<<<<<<< HEAD
             this.panel1.SuspendLayout();
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.SuspendLayout();
             // 
             // dateTimeStart
             // 
+<<<<<<< HEAD
             this.dateTimeStart.Location = new System.Drawing.Point(754, 148);
+=======
+            this.dateTimeStart.Location = new System.Drawing.Point(709, 71);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.dateTimeStart.Name = "dateTimeStart";
             this.dateTimeStart.Size = new System.Drawing.Size(227, 27);
             this.dateTimeStart.TabIndex = 47;
@@ -80,7 +90,11 @@ namespace SuperMaket_project
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label6.Location = new System.Drawing.Point(1000, 155);
+=======
+            this.label6.Location = new System.Drawing.Point(955, 78);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(54, 20);
             this.label6.TabIndex = 46;
@@ -88,12 +102,18 @@ namespace SuperMaket_project
             // 
             // buttonUpdate
             // 
+<<<<<<< HEAD
             this.buttonUpdate.BackColor = System.Drawing.Color.DarkGreen;
             this.buttonUpdate.FlatAppearance.BorderSize = 0;
             this.buttonUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonUpdate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonUpdate.ForeColor = System.Drawing.SystemColors.Control;
             this.buttonUpdate.Location = new System.Drawing.Point(925, 217);
+=======
+            this.buttonUpdate.BackColor = System.Drawing.Color.Lime;
+            this.buttonUpdate.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonUpdate.Location = new System.Drawing.Point(880, 140);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.Size = new System.Drawing.Size(148, 58);
             this.buttonUpdate.TabIndex = 45;
@@ -103,7 +123,11 @@ namespace SuperMaket_project
             // 
             // textSearch
             // 
+<<<<<<< HEAD
             this.textSearch.Location = new System.Drawing.Point(50, 217);
+=======
+            this.textSearch.Location = new System.Drawing.Point(5, 140);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.textSearch.Multiline = true;
             this.textSearch.Name = "textSearch";
             this.textSearch.Size = new System.Drawing.Size(450, 57);
@@ -111,12 +135,18 @@ namespace SuperMaket_project
             // 
             // buttonSearch
             // 
+<<<<<<< HEAD
             this.buttonSearch.BackColor = System.Drawing.Color.DarkGreen;
             this.buttonSearch.FlatAppearance.BorderSize = 0;
             this.buttonSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSearch.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSearch.ForeColor = System.Drawing.SystemColors.Control;
             this.buttonSearch.Location = new System.Drawing.Point(506, 216);
+=======
+            this.buttonSearch.BackColor = System.Drawing.Color.Lime;
+            this.buttonSearch.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSearch.Location = new System.Drawing.Point(461, 139);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Size = new System.Drawing.Size(211, 57);
             this.buttonSearch.TabIndex = 43;
@@ -126,12 +156,18 @@ namespace SuperMaket_project
             // 
             // buttonExit
             // 
+<<<<<<< HEAD
             this.buttonExit.BackColor = System.Drawing.Color.DarkGreen;
             this.buttonExit.FlatAppearance.BorderSize = 0;
             this.buttonExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonExit.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonExit.ForeColor = System.Drawing.SystemColors.Control;
             this.buttonExit.Location = new System.Drawing.Point(1401, 217);
+=======
+            this.buttonExit.BackColor = System.Drawing.Color.Lime;
+            this.buttonExit.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonExit.Location = new System.Drawing.Point(1356, 140);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(93, 63);
             this.buttonExit.TabIndex = 39;
@@ -141,12 +177,18 @@ namespace SuperMaket_project
             // 
             // buttonPrint
             // 
+<<<<<<< HEAD
             this.buttonPrint.BackColor = System.Drawing.Color.DarkGreen;
             this.buttonPrint.FlatAppearance.BorderSize = 0;
             this.buttonPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonPrint.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPrint.ForeColor = System.Drawing.SystemColors.Control;
             this.buttonPrint.Location = new System.Drawing.Point(1247, 217);
+=======
+            this.buttonPrint.BackColor = System.Drawing.Color.Lime;
+            this.buttonPrint.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPrint.Location = new System.Drawing.Point(1202, 140);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.buttonPrint.Name = "buttonPrint";
             this.buttonPrint.Size = new System.Drawing.Size(148, 63);
             this.buttonPrint.TabIndex = 38;
@@ -155,17 +197,24 @@ namespace SuperMaket_project
             // 
             // buttonSave
             // 
+<<<<<<< HEAD
             this.buttonSave.BackColor = System.Drawing.Color.DarkGreen;
             this.buttonSave.FlatAppearance.BorderSize = 0;
             this.buttonSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSave.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSave.ForeColor = System.Drawing.SystemColors.Control;
             this.buttonSave.Location = new System.Drawing.Point(1095, 219);
+=======
+            this.buttonSave.BackColor = System.Drawing.Color.Lime;
+            this.buttonSave.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSave.Location = new System.Drawing.Point(1050, 142);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(148, 59);
             this.buttonSave.TabIndex = 37;
             this.buttonSave.Text = "حفظ";
             this.buttonSave.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
             this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
             // 
             // buttonDelete
@@ -176,6 +225,14 @@ namespace SuperMaket_project
             this.buttonDelete.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonDelete.ForeColor = System.Drawing.SystemColors.Control;
             this.buttonDelete.Location = new System.Drawing.Point(754, 217);
+=======
+            // 
+            // buttonDelete
+            // 
+            this.buttonDelete.BackColor = System.Drawing.Color.Lime;
+            this.buttonDelete.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDelete.Location = new System.Drawing.Point(709, 140);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(148, 57);
             this.buttonDelete.TabIndex = 35;
@@ -187,7 +244,11 @@ namespace SuperMaket_project
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label5.Location = new System.Drawing.Point(179, 100);
+=======
+            this.label5.Location = new System.Drawing.Point(134, 23);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 20);
             this.label5.TabIndex = 33;
@@ -196,7 +257,11 @@ namespace SuperMaket_project
             // textBareCO
             // 
             this.textBareCO.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.textBareCO.Location = new System.Drawing.Point(690, 92);
+=======
+            this.textBareCO.Location = new System.Drawing.Point(645, 15);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.textBareCO.Multiline = true;
             this.textBareCO.Name = "textBareCO";
             this.textBareCO.Size = new System.Drawing.Size(152, 33);
@@ -207,7 +272,11 @@ namespace SuperMaket_project
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(848, 98);
+=======
+            this.label4.Location = new System.Drawing.Point(803, 21);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(54, 20);
             this.label4.TabIndex = 31;
@@ -216,7 +285,11 @@ namespace SuperMaket_project
             // textPriceBuy
             // 
             this.textPriceBuy.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.textPriceBuy.Location = new System.Drawing.Point(464, 93);
+=======
+            this.textPriceBuy.Location = new System.Drawing.Point(419, 16);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.textPriceBuy.Multiline = true;
             this.textPriceBuy.Name = "textPriceBuy";
             this.textPriceBuy.Size = new System.Drawing.Size(136, 33);
@@ -228,7 +301,11 @@ namespace SuperMaket_project
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(606, 100);
+=======
+            this.label3.Location = new System.Drawing.Point(561, 23);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(78, 20);
             this.label3.TabIndex = 29;
@@ -238,7 +315,11 @@ namespace SuperMaket_project
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(1173, 95);
+=======
+            this.label2.Location = new System.Drawing.Point(1128, 18);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 20);
             this.label2.TabIndex = 28;
@@ -247,7 +328,11 @@ namespace SuperMaket_project
             // textprodName
             // 
             this.textprodName.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.textprodName.Location = new System.Drawing.Point(1247, 89);
+=======
+            this.textprodName.Location = new System.Drawing.Point(1202, 12);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.textprodName.Multiline = true;
             this.textprodName.Name = "textprodName";
             this.textprodName.Size = new System.Drawing.Size(162, 33);
@@ -256,12 +341,18 @@ namespace SuperMaket_project
             // 
             // buttonADD
             // 
+<<<<<<< HEAD
             this.buttonADD.BackColor = System.Drawing.Color.DarkGreen;
             this.buttonADD.FlatAppearance.BorderSize = 0;
             this.buttonADD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonADD.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonADD.ForeColor = System.Drawing.SystemColors.Control;
             this.buttonADD.Location = new System.Drawing.Point(1136, 141);
+=======
+            this.buttonADD.BackColor = System.Drawing.Color.Lime;
+            this.buttonADD.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonADD.Location = new System.Drawing.Point(1091, 64);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.buttonADD.Name = "buttonADD";
             this.buttonADD.Size = new System.Drawing.Size(355, 58);
             this.buttonADD.TabIndex = 26;
@@ -273,7 +364,11 @@ namespace SuperMaket_project
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(1415, 98);
+=======
+            this.label1.Location = new System.Drawing.Point(1370, 21);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 20);
             this.label1.TabIndex = 25;
@@ -285,7 +380,11 @@ namespace SuperMaket_project
             this.comboBox2.Items.AddRange(new object[] {
             "single",
             "package"});
+<<<<<<< HEAD
             this.comboBox2.Location = new System.Drawing.Point(944, 89);
+=======
+            this.comboBox2.Location = new System.Drawing.Point(899, 12);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.comboBox2.MinimumSize = new System.Drawing.Size(50, 0);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(223, 27);
@@ -294,7 +393,11 @@ namespace SuperMaket_project
             // 
             // numbericdoQlty
             // 
+<<<<<<< HEAD
             this.numbericdoQlty.Location = new System.Drawing.Point(53, 96);
+=======
+            this.numbericdoQlty.Location = new System.Drawing.Point(8, 19);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.numbericdoQlty.Name = "numbericdoQlty";
             this.numbericdoQlty.Size = new System.Drawing.Size(120, 27);
             this.numbericdoQlty.TabIndex = 49;
@@ -309,18 +412,30 @@ namespace SuperMaket_project
             | System.Windows.Forms.AnchorStyles.Left)));
             this.dataGridView1.BackgroundColor = System.Drawing.Color.DarkGray;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+<<<<<<< HEAD
             this.dataGridView1.Location = new System.Drawing.Point(12, 303);
+=======
+            this.dataGridView1.Location = new System.Drawing.Point(5, 264);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 29;
+<<<<<<< HEAD
             this.dataGridView1.Size = new System.Drawing.Size(1589, 400);
+=======
+            this.dataGridView1.Size = new System.Drawing.Size(1606, 439);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.dataGridView1.TabIndex = 50;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // dateTimeEnd
             // 
+<<<<<<< HEAD
             this.dateTimeEnd.Location = new System.Drawing.Point(353, 151);
+=======
+            this.dateTimeEnd.Location = new System.Drawing.Point(308, 74);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.dateTimeEnd.Name = "dateTimeEnd";
             this.dateTimeEnd.Size = new System.Drawing.Size(227, 27);
             this.dateTimeEnd.TabIndex = 52;
@@ -329,7 +444,11 @@ namespace SuperMaket_project
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label7.Location = new System.Drawing.Point(606, 154);
+=======
+            this.label7.Location = new System.Drawing.Point(561, 77);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(57, 20);
             this.label7.TabIndex = 51;
@@ -344,7 +463,11 @@ namespace SuperMaket_project
             "البسكويتات",
             "المشروبات",
             ""});
+<<<<<<< HEAD
             this.comboxParts.Location = new System.Drawing.Point(57, 154);
+=======
+            this.comboxParts.Location = new System.Drawing.Point(12, 77);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.comboxParts.MinimumSize = new System.Drawing.Size(50, 0);
             this.comboxParts.Name = "comboxParts";
             this.comboxParts.Size = new System.Drawing.Size(223, 27);
@@ -355,7 +478,11 @@ namespace SuperMaket_project
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label8.Location = new System.Drawing.Point(286, 160);
+=======
+            this.label8.Location = new System.Drawing.Point(241, 83);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(40, 20);
             this.label8.TabIndex = 53;
@@ -364,7 +491,11 @@ namespace SuperMaket_project
             // texpriceSell
             // 
             this.texpriceSell.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.texpriceSell.Location = new System.Drawing.Point(232, 93);
+=======
+            this.texpriceSell.Location = new System.Drawing.Point(187, 16);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.texpriceSell.Multiline = true;
             this.texpriceSell.Name = "texpriceSell";
             this.texpriceSell.Size = new System.Drawing.Size(136, 33);
@@ -376,7 +507,11 @@ namespace SuperMaket_project
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label9.Location = new System.Drawing.Point(383, 100);
+=======
+            this.label9.Location = new System.Drawing.Point(338, 23);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(70, 20);
             this.label9.TabIndex = 55;
@@ -396,6 +531,7 @@ namespace SuperMaket_project
             // 
             this.sendProductsTableAdapter.ClearBeforeFill = true;
             // 
+<<<<<<< HEAD
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
@@ -417,13 +553,20 @@ namespace SuperMaket_project
             this.label11.TabIndex = 18;
             this.label11.Text = "توريد المنتجات";
             // 
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             // FormSendProdu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1660, 715);
             this.Controls.Add(this.panel1);
+=======
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(1660, 715);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.Controls.Add(this.texpriceSell);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.comboxParts);
@@ -459,8 +602,11 @@ namespace SuperMaket_project
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lODBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sendProductsBindingSource)).EndInit();
+<<<<<<< HEAD
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -498,7 +644,10 @@ namespace SuperMaket_project
         private LODBDataSet lODBDataSet;
         private System.Windows.Forms.BindingSource sendProductsBindingSource;
         private LODBDataSetTableAdapters.SendProductsTableAdapter sendProductsTableAdapter;
+<<<<<<< HEAD
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label11;
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
     }
 }

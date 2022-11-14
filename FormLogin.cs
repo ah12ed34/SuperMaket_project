@@ -9,6 +9,7 @@ using System.Runtime.InteropServices;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+<<<<<<< HEAD
 using SuperMaket_project.Properties;
 
 namespace SuperMaket_project
@@ -19,11 +20,25 @@ namespace SuperMaket_project
         Login login = new Login(); 
         
         
+=======
+
+namespace SuperMaket_project
+{
+    public partial class FormLogin : Form
+    {
+        SqlConnection con = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\الجامعة\مستوى ثالث\projects c# forms\SuperMaket_project\DBSPMKT.mdf;Integrated Security = True");
+        SqlCommand com = new SqlCommand();
+
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         //Fields
         private readonly int borderRadius = 30;
         private int borderSize = 1;
         private Color borderColor = Color.FromArgb(128, 128, 255);
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         public FormLogin()
         {
             InitializeComponent();
@@ -208,12 +223,21 @@ namespace SuperMaket_project
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
             if (login.isLogin(txtUserName.Text, textPass.Text))
             {
                
                 Form1 f1 = new Form1(); 
                 this.Hide();
+=======
+            con.Open();
+            com = new SqlCommand(" Select * from LoginUsers where UserName='" + txtUserName.Text+ "'and Password='" +textPass.Text+ "'",con);
+            SqlDataReader dr = com.ExecuteReader();
+            if (dr.Read() == true)
+            {
+                Form1 f1 = new Form1();
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
                 f1.ShowDialog();
                 Application.Exit();
             }
@@ -222,7 +246,11 @@ namespace SuperMaket_project
                 MessageBox.Show("UserName or Password is wrong!");
             }
            
+<<<<<<< HEAD
             
+=======
+            con.Close();
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
            
         }
 

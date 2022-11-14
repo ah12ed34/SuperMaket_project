@@ -19,7 +19,11 @@ namespace SuperMaket_project.Facade
         {
 
             return con.commandExecute("insert Customer (Customer_name,email,phone,street,city,snn,Customer_Gender,Customer_type,Customer_Balance,Customer_date)Values"
+<<<<<<< HEAD
                + "('" + FallName + "','" + Email + "', '" + phone + "', '" + street.Replace("'", "''") + "', '" + city.Replace("'", "''") + "', '" + snn + "', '" + gender + "', '" + type + "', '" + Balance + "', '" + dateTimeStert + "')");
+=======
+               + "(N'" + FallName + "','" + Email + "', '" + phone + "', N'" + street.Replace("'", "''") + "', N'" + city.Replace("'", "''") + "', '" + snn + "', N'" + gender + "', '" + type + "', '" + Balance + "', '" + dateTimeStert + "')");
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         }
         public bool delete(int id)
         {

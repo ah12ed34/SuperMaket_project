@@ -32,7 +32,10 @@ namespace SuperMaket_project
         }
         private void FormUsers_Load(object sender, EventArgs e)
         {  
+<<<<<<< HEAD
             comboBGander.SelectedIndex = 0;
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             dataGridView1.MultiSelect = false;
             dataGridView1.EnableHeadersVisualStyles = false;
             dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.Blue;
@@ -65,7 +68,11 @@ namespace SuperMaket_project
 
             if (filtel.isEmail(textBEmail.Text))
             {
+<<<<<<< HEAD
                 decimal phone = Convert.ToDecimal(txtPhone.Text);
+=======
+                int phone = Convert.ToInt32(txtPhone.Text);
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
                 decimal snn = Convert.ToDecimal(textBSSN.Text);
                 float salary = float.Parse(textBSelery.Text, CultureInfo.InvariantCulture.NumberFormat);
                 //int emial = Convert.ToInt32(txtEmail.Text);
@@ -88,6 +95,13 @@ namespace SuperMaket_project
                
     }
 
+<<<<<<< HEAD
+=======
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
@@ -160,6 +174,7 @@ namespace SuperMaket_project
               
                 dataGridView1.CurrentRow.Selected = true;
                 txtUserName.Text = dataGridView1.Rows[e.RowIndex].Cells["user"].Value.ToString();
+<<<<<<< HEAD
                 txtFullName.Text = dataGridView1.Rows[e.RowIndex].Cells["FullName"].Value.ToString();
                 textBCity.Text = dataGridView1.Rows[e.RowIndex].Cells["city"].Value.ToString();
                 txtPhone.Text = dataGridView1.Rows[e.RowIndex].Cells["phone"].Value.ToString();
@@ -170,6 +185,15 @@ namespace SuperMaket_project
                 isLogin.Checked = Convert.ToBoolean(dataGridView1.Rows[e.RowIndex].Cells["login"].Value);
 
                     }
+=======
+                txtFullName.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+                textBCity.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
+                txtPhone.Text = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
+                textPass.Text = security.Decrypt( dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString());
+              
+
+            }
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
 
             }catch (Exception ex)
             {
@@ -180,6 +204,7 @@ namespace SuperMaket_project
 
         private void txtUserName_KeyPress(object sender, KeyPressEventArgs e)
         {
+<<<<<<< HEAD
             //filtel.whriteNumber(e); 
         }
 
@@ -192,6 +217,9 @@ namespace SuperMaket_project
         private void textBSelery_KeyPress(object sender, KeyPressEventArgs e)
         {
             filtel.whriteNumber(e);
+=======
+            filtel.whriteNumber(e); 
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         }
     }
 }

@@ -8,7 +8,11 @@ using System.Windows.Forms;
 
 namespace SuperMaket_project
 {
+<<<<<<< HEAD
     public class connection
+=======
+    class connection
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
     {
         SqlConnection conn = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB;AttachDbFilename="+ Application.StartupPath + @"\db\SuperSalesMangement.mdf;Integrated Security = True;Connect Timeout=30");
 

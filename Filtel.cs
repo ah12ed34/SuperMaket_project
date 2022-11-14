@@ -43,10 +43,13 @@ namespace SuperMaket_project
         /// <param name="e"></param>
         public void whriteNumber(KeyPressEventArgs e)
         {
+<<<<<<< HEAD
             if((e.KeyChar == (char)Keys.Back))
             {
                 e.Handled = false;
             }else
+=======
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             if(!char.IsNumber(e.KeyChar))
             {
                 e.Handled = true;

@@ -10,7 +10,11 @@ using System.Drawing.Text;
 using System.Drawing.Drawing2D;
 using System.Data.SqlClient;
 using System.Configuration;
+<<<<<<< HEAD
 using SuperMaket_project.Facade;
+=======
+
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
 namespace SuperMaket_project
 {
 
@@ -18,7 +22,11 @@ namespace SuperMaket_project
     {
         //SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\الجامعة\مستوى ثالث\projects c# forms\SuperMaket_project\bin\Debug\LODB.mdf;Integrated Security=True;Connect Timeout=30");
 
+<<<<<<< HEAD
         FSalesBill SalesBill = new FSalesBill();
+=======
+        
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         public Formbill()
         {
             InitializeComponent();
@@ -30,7 +38,11 @@ namespace SuperMaket_project
         public void DisplayData()
         {
             
+<<<<<<< HEAD
             SqlDataAdapter sda = SalesBill.getAll();
+=======
+            SqlDataAdapter sda = con.command("Select * from  ProductSells");
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             DataTable dt = new DataTable();
             sda.Fill(dt);
             dataGridView1.DataSource = dt;
@@ -440,7 +452,11 @@ namespace SuperMaket_project
             textSearch.Text = "";
 
             DataTable dt = new DataTable();
+<<<<<<< HEAD
             SqlDataAdapter sda = SalesBill.getAllProdectNRQ(); ;
+=======
+            SqlDataAdapter sda = con.command("select * from ProductSells where prodName ='" + textSearch.Text + "'"); ;
+>>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
 
             sda.Fill(dt);
             dataGridView1.DataSource = dt;
