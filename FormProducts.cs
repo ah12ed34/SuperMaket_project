@@ -7,21 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-<<<<<<< HEAD
 using SuperMaket_project.Facade;
-=======
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
 
 namespace SuperMaket_project
 {
     public partial class FormProducts : Form
     {
-<<<<<<< HEAD
         FProducts products = new FProducts();
         DataTable dt = new DataTable();
-=======
-        connection con = new connection();
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         public FormProducts()
             
         {
@@ -29,13 +22,8 @@ namespace SuperMaket_project
         }
         public void DisplayData()
         {
-<<<<<<< HEAD
             SqlDataAdapter sda = products.getAllProdect();
              dt = new DataTable();
-=======
-            SqlDataAdapter sda = con.command("Select * from SendProducts ");
-            DataTable dt = new DataTable();
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             sda.Fill(dt);
             dataGridView1.DataSource = dt;
         }
@@ -56,7 +44,6 @@ namespace SuperMaket_project
         {
 
            
-<<<<<<< HEAD
             ////int price = Convert.ToInt32(textPrice.Text);
             ////int bareCode = Convert.ToInt32(textBarCO.Text);
             ////int qoulty = Convert.ToInt32(textQoulty.Text);
@@ -74,31 +61,11 @@ namespace SuperMaket_project
 
             //MessageBox.Show("Recods are deleted successfully");
             //DisplayData();
-=======
-            //int price = Convert.ToInt32(textPrice.Text);
-            //int bareCode = Convert.ToInt32(textBarCO.Text);
-            //int qoulty = Convert.ToInt32(textQoulty.Text);
-            con.delete("Delete  From SendProducts where prodName='" + textprodName.Text + "'");
-           
-            textprodName.Text = "";
-            //comboBox2.Text = "";
-            //textPrice.Text = "";
-            //textBareCO.Text = "";
-            //numbericdoQlty.Value = 0;
-            //price = 0;
-            //bareCode = 0;
-            //qoulty = 0;
-            
-
-            MessageBox.Show("Recods are deleted successfully");
-            DisplayData();
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         }
 
         private void buttonUpdate_Click(object sender, EventArgs e)
         {
             
-<<<<<<< HEAD
            // //int price = Convert.ToInt32(textPrice.Text);
            // //int bareCode = Convert.ToInt32(textBarCO.Text);
            // //int qoulty = Convert.ToInt32(textQoulty.Text);
@@ -116,25 +83,6 @@ namespace SuperMaket_project
 
            // MessageBox.Show("Recods are update successfully");
            // DisplayData();
-=======
-            //int price = Convert.ToInt32(textPrice.Text);
-            //int bareCode = Convert.ToInt32(textBarCO.Text);
-            //int qoulty = Convert.ToInt32(textQoulty.Text);
-           con.command("Update SendProducts set prodName ='" + textprodName.Text + "' where prodName ='" + textSearch.Text + "'");
-           
-            textprodName.Text = "";
-            //comboBox2.Text = "";
-            //textPrice.Text = "";
-            //textBareCO.Text = "";
-            //numbericdoQlty.Value = 0;
-            //price = 0;
-            //bareCode = 0;
-            //qoulty = 0;
-
-
-            MessageBox.Show("Recods are update successfully");
-            DisplayData();
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         }
 
         private void buttonSearch_Click(object sender, EventArgs e)
@@ -151,15 +99,9 @@ namespace SuperMaket_project
             //textBareCO.Text = "";
             //numbericdoQlty.Value = 0;
 
-<<<<<<< HEAD
             
             SqlDataAdapter sda = products.getProdect(textSearch.Text);
             dt = new DataTable();
-=======
-            DataTable dt = new DataTable();
-            SqlDataAdapter sda = con.command("select * from SendProducts where prodName ='" + textSearch.Text + "'");
-
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             sda.Fill(dt);
             dataGridView1.DataSource = dt;
         }

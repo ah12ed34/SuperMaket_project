@@ -3,11 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Data.SqlClient;
-<<<<<<< HEAD
 
-=======
-using SuperMaket_project.Interfece;
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
 
 namespace SuperMaket_project.Facade
 {

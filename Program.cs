@@ -15,11 +15,7 @@ namespace SuperMaket_project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
             Application.Run(new FormLogin());
-=======
-            Application.Run(new Form1());
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         }
     }
 }

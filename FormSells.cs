@@ -8,37 +8,22 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Drawing.Drawing2D;
-<<<<<<< HEAD
 using SuperMaket_project.Facade;
-=======
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
 namespace SuperMaket_project
 {
     public partial class FormSells : Form
     {
-<<<<<<< HEAD
         FSalesBill salesBill = new FSalesBill();
         
-=======
-
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         public FormSells()
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
        
 
         public void DisplayData()
         {
             SqlDataAdapter sda = salesBill.getAll();
-=======
-        connection con = new connection();
-
-        public void DisplayData()
-        {
-            SqlDataAdapter sda = con.command("Select * from  ProductSells ");
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             DataTable dt = new DataTable();
             sda.Fill(dt);
             dataGridView1.DataSource = dt;
@@ -53,11 +38,7 @@ namespace SuperMaket_project
             dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.Blue;
             dataGridView1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
            
-<<<<<<< HEAD
             //DisplayData();
-=======
-            DisplayData();
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
 
         }
 
@@ -73,11 +54,7 @@ namespace SuperMaket_project
             textSearch.Text = "";
 
             DataTable dt = new DataTable();
-<<<<<<< HEAD
             SqlDataAdapter sda = salesBill.Search(Convert.ToInt32(textSearch.Text));
-=======
-            SqlDataAdapter sda = con.command("select * from ProductSells where prodName ='" + textSearch.Text + "'");
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
 
             sda.Fill(dt);
             dataGridView1.DataSource = dt;

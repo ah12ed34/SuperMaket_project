@@ -8,7 +8,6 @@ namespace SuperMaket_project
     public class Products
     {
         string name, unit;
-<<<<<<< HEAD
         decimal buy_price,sell_price,barcode,Quantity ,Qty;
         int id ,id_buy;
         DateTime buyDate, EndDate;
@@ -28,13 +27,6 @@ namespace SuperMaket_project
         /// <param name="buyDate"></param>
         /// <param name="endDate"></param>
         public Products(string name, string unit, decimal buy_price, decimal sell_price, decimal barcode, decimal quantity, int id, int id_buy,int qty, DateTime buyDate, DateTime endDate)
-=======
-        decimal buy_price,sell_price,barcode,Quantity;
-        int id ,id_buy;
-        DateTime buyDate, EndDate;
-        
-        public Products(string name, string unit, decimal buy_price, decimal sell_price, decimal barcode, decimal quantity, int id, int id_buy, DateTime buyDate, DateTime endDate)
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
         {
             this.Name = name;
             this.Unit = unit;
@@ -44,10 +36,7 @@ namespace SuperMaket_project
             Quantity1 = quantity;
             this.Id = id;
             this.Id_buy = id_buy;
-<<<<<<< HEAD
             this.Qty = qty;
-=======
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
             this.BuyDate = buyDate;
             EndDate1 = endDate;
         }
@@ -63,13 +52,10 @@ namespace SuperMaket_project
         public int Id_buy { get => id_buy; set => id_buy = value; }
         public DateTime BuyDate { get => buyDate; set => buyDate = value; }
         public DateTime EndDate1 { get => EndDate; set => EndDate = value; }
-<<<<<<< HEAD
        /// <summary>
        /// الكمية المراد بيعة 
        /// </summary>
         public decimal Qty1 { get => Qty; set => Qty = value; }
-=======
->>>>>>> 39482c426b59c769bcff8e543752f7b0df6c880a
     }
 
 }
